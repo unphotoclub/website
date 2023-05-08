@@ -1,0 +1,24 @@
+baseURL = "https://unphotoclub.org"
+
+disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
+defaultContentLanguage = "en"
+theme = "hugo-scroll"
+
+title = "United Nations Photo Club Vienna"
+
+[params]
+
+    favicon = "images/favicon.png"
+    images = ["images/cover-image.jpg"]
+    title = "United Nations Photo Club Vienna"
+    description = "The official photo club of the Vienna International Centre."
+    copyright = "© UNPC"
+
+    title_guard = false
+    hidedesignbyline = false
+    invertSectionColors = false
+    [params.meta]
+        keywords = "expats, photography, vic, vienna international centre"
+
+[markup.goldmark.renderer]
+hardWraps = true
